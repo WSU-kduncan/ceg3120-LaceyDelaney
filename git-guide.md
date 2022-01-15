@@ -33,4 +33,23 @@ Command: git branch
 checkout: lets you navigate between the branches created by git branch. 
 Command: git checkout <branch name>
 
-.git folder: 
+.GIT FOLDER 
+hooks- this folder contains script files. Git hooks are the scripts that are executed before or after events like commit, push, etc.
+
+objects: This folder represents an obkect database of Git.
+
+config: This is the local configuration file. 
+
+refs: This folder stores information about tags and branches. 
+
+HEAD: This file stores reference to the current branch. It points to the master branch by default. 
+
+index: This is a binary file and stores staging information. 
+
+.GITIGNORE FILE 
+
+- File that holds list of files / directories you want ignored
+- git status will no longer show these as files to be added. 
+- is used to exclude libraries files that need to be built per system, keep excess and secrets off Github. 
+
+
