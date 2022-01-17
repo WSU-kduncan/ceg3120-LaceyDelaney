@@ -52,4 +52,18 @@ index: This is a binary file and stores staging information.
 - git status will no longer show these as files to be added. 
 - is used to exclude libraries files that need to be built per system, keep excess and secrets off Github. 
 
+GITHUB
+
+pull requests: Forum like interface on GitHub where you can request changes to be merged. 
+Command: git pull
+- fetch (content from remote) and merge it into your local repo copy.
+
+ssh authentication to repositories steps
+1. ssh-keygen -t ed25519 -C "your_email@example.com"
+2. .ssh
+3. .ssh/authorized keys : List of PUBLIC keys 
+4. .ssh/known_hosts : first connection requres identity signature
+5. .ssh/config way to manage keys & create "aliases" 
+6. Need to copy key into github settings. 
+
 
