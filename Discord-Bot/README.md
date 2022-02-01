@@ -24,4 +24,4 @@ Research
 
 - https://replit.com/talk/learn/Hosting-discordjs-bots-on-replit-Works-for-both-discordjs-and-Eris/11027
 
-- 
+- I think this resource will end up working because it is from a reliable source. UpTimeroBot is a platform where you can copy your server link into the software to have it run for however long it can. It does say since it is through repl it there wil be times when its down for a couple of minutes since replit doesn't run 24/7 
