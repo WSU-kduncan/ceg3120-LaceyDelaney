@@ -13,7 +13,7 @@ Setup
 
 Usage
 
-- I changed some of the variable names and the message. I changed the bots name is spongebot and had it say a spongebob reference. I also changed the quotes in the write up to be sayings from The Office. I then changed the word the would make the bot say certain things.  
+- I changed some of the variable names and the message. I changed the bots name to spongebot and had it say a spongebob references. I also changed the quotes in the write up to be references from The Office. I then changed the command that would make the bot say certain things.  
 
 - command: apple! 
 
