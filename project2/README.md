@@ -26,7 +26,7 @@ Part 1 - Build a VPC
 
 
 5. Create a security group
-- Security Groupz: enables you to filter traffic based on protocols and port numbers. 
+- Security Groups: enables you to filter traffic based on protocols and port numbers. 
 ![securitygroup](https://user-images.githubusercontent.com/77417309/154163226-ef4bf500-9f82-435d-a9f0-8518d5de6cad.png)
 
 
@@ -49,9 +49,20 @@ is graded.
 6. My security group was easy to assign since I had given a good description of what the security ID did. 
 
 7. I went to the elastic IP page and followed the steps from lecture.
+![eip](https://user-images.githubusercontent.com/77417309/154189308-9c4966ae-1f4f-41af-ba5e-47e793c9bb0c.png)
+
 
 8.Screenshot of instance details 
+- Not sure why the tag is not displaying but provided another screenshot to show it has a name.
+![instances](https://user-images.githubusercontent.com/77417309/154189326-45092a8b-3988-4c1b-8539-c246db43c089.png)
+![instancep2](https://user-images.githubusercontent.com/77417309/154189344-dbe67817-2042-4592-a80d-76388ab26a5b.png)
+
 
 9. I changed the hostname with the command below and had to log back in to the instance to see the change. 
+![command](https://user-images.githubusercontent.com/77417309/154189450-6d744d45-5af9-4603-8793-b714567869c0.png)
+![hostname](https://user-images.githubusercontent.com/77417309/154189521-44e9a339-5ab1-48a5-b487-b90a7ed78f33.png)
+
 
 10. Screenshot of ssh connection to my instance.    
+![ssh](https://user-images.githubusercontent.com/77417309/154189551-60ce5c48-9d42-4af8-9fef-8e3a74475518.png)
+
