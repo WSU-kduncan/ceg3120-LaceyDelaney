@@ -34,4 +34,20 @@ Part 1 - Build a VPC
 
 Part 2 - EC2 Instances
 
+1. Ubuntu Server 20.04 LTS (HVM), SSD Volume Type - ami-04505e74c0741db8d (64-bit x86) / ami-0b49a4a6e8e22fa16 (64-bit Arm)
+Instance Type: t2.micro
 
+2. Screenshot of attached VPC to instance. 
+
+3. I decided to not auto assign a ipv4 address to my instance because knowing my luck it would be bought before the project 
+is graded. 
+
+4. For volume, I went with 16 GB and the general purpose SSD. 
+
+5. I tagged my instance with "delaney-ubuntu" instead so I could remember that I chose Ubuntu for project2. 
+
+6. My security group was easy to assign since I had given a good description of what the security ID did. 
+
+7. I went to the elastic IP page and followed the steps from lecture.
+
+8.  
