@@ -38,6 +38,8 @@ Part 2 - EC2 Instances
 Instance Type: t2.micro
 
 2. Screenshot of attached VPC to instance. 
+![running](https://user-images.githubusercontent.com/77417309/154190155-b43988d2-a499-443a-aaae-ab3a0dba55c8.png)
+
 
 3. I decided to not auto assign a ipv4 address to my instance because knowing my luck it would be bought before the project 
 is graded. 
