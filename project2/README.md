@@ -50,4 +50,8 @@ is graded.
 
 7. I went to the elastic IP page and followed the steps from lecture.
 
-8.  
+8.Screenshot of instance details 
+
+9. I changed the hostname with the command below and had to log back in to the instance to see the change. 
+
+10. Screenshot of ssh connection to my instance.    
