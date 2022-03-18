@@ -38,10 +38,23 @@ commands used: ssh -i ceg3120-aws-vm.pem ubuntu@privateIP
 4. **_Webserver 1 & 2 configuration & documentation requirements_**
    - How set up a webserver
      - What file(s) were modified & their location
+    
+      In /var/www/html I modified the index.html for each webserver with the index files provided in the project write up. 
      - What configuration(s) were set (if any)
+     
+     No configurations were set for this step 
+     
      - Where site content files were located (and why)
+
+     /var/www/html because it is the default location for apache2 
+   
      - How to restart the service after a configuration change
+
+     sudo systemctl restart apache2 
+      
      - Resources used (websites)
+     No websites, referred back to lecture recordings 
+    
 5. From the browser, when connecting to the proxy server, take two screenshots.
    - one screenshot that shows content from "server 1"
    - one screenshot that shows content from "server 2"
