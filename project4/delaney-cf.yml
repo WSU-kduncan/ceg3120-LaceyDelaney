@@ -142,7 +142,7 @@ Resources:
           ToPort: '22'
           CidrIp: 76.177.226.24/32  # Replace with home / trusted public IP
           # TODO Need more rules for port 80 access
-          - IpProtocol: tcp
+        - IpProtocol: tcp
           FromPort: '80'
           ToPort: '80'
           CidrIp: 0.0.0.0/0
