@@ -17,23 +17,23 @@ Commands used: sudo nano /etc/hosts
 commands used: ssh -i ceg3120-aws-vm.pem ubuntu@privateIP 
 
 
-4. **_HAProxy configuration & documentation requirements_**
+3. **_HAProxy configuration & documentation requirements_**
    - How to set up a HAProxy load balancer
      - What file(s) where modified & their location
      - What configuration(s) were set (if any)
      - How to restart the service after a configuration change
      - Resources used (websites)
-5. **_Webserver 1 & 2 configuration & documentation requirements_**
+4. **_Webserver 1 & 2 configuration & documentation requirements_**
    - How set up a webserver
      - What file(s) were modified & their location
      - What configuration(s) were set (if any)
      - Where site content files were located (and why)
      - How to restart the service after a configuration change
      - Resources used (websites)
-6. From the browser, when connecting to the proxy server, take two screenshots.
+5. From the browser, when connecting to the proxy server, take two screenshots.
    - one screenshot that shows content from "server 1"
    - one screenshot that shows content from "server 2"
-7. (Optional) - link to your proxy so I can click it.
+6. (Optional) - link to your proxy so I can click it.
 
 ## Resources and Warnings
 
