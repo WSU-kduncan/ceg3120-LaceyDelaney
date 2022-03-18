@@ -5,7 +5,9 @@ Setup the following and add documentation or screenshots to your `README.md` fil
 
 1. Create an `/etc/hosts` OR `.ssh/config` file on each system that correlates hostnames to private IPs.
    - Description of how file is configured
-  ![image](https://user-images.githubusercontent.com/77417309/158945321-4fdd60fd-6f3f-4dc3-a6c6-4796d67fb8bf.png)
+   
+![image](https://user-images.githubusercontent.com/77417309/158945321-4fdd60fd-6f3f-4dc3-a6c6-4796d67fb8bf.png)
+  
 Commands used: sudo nano /etc/hosts 
 (CTRL,X,Y) save & quit in nano 
 
