@@ -23,7 +23,8 @@ commands used: ssh -i ceg3120-aws-vm.pem ubuntu@privateIP
       - /etc/haproxy/haproxy.cfg
 
      - What configuration(s) were set (if any)
-![image](https://user-images.githubusercontent.com/77417309/159046435-fb068062-da05-4ee1-8f17-be6366df3a73.png)
+
+   ![image](https://user-images.githubusercontent.com/77417309/159046435-fb068062-da05-4ee1-8f17-be6366df3a73.png)
 
      - How to restart the service after a configuration change
      
