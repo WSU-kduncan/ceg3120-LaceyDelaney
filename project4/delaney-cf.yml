@@ -226,7 +226,7 @@ Resources:
             reboot
   WebServ2Instance:
     Type: 'AWS::EC2::Instance'
-    DependsOn: AttachPrivateSubnet
+    DependsOn: AttachGateway
     Properties:
       ImageId: !FindInMap 
         - AWSRegionUbuntu
