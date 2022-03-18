@@ -242,7 +242,7 @@ Resources:
         - Key: Application
           Value: !Ref 'AWS::StackId'
         - Key: Name
-          Value: webserv1
+          Value: webserv2
       NetworkInterfaces:
         - GroupSet:
             - !Ref SecurityGroup
@@ -250,14 +250,4 @@ Resources:
           DeviceIndex: '0'
           DeleteOnTermination: 'true'
           SubnetId: !Ref PrivateSubnet
-          PrivateIpAddress: 10.0.1.10 # TODO make sure unique to the instance
-      UserData:
-        Fn::Base64:
-          !Sub |
-            #!/bin/bash -xe
-            apt-get update && \
-            # TODO need to install apache or nginx
-            apt-get install -y git apache2 && \
-            # TODO give it a hostname - hostnamectl  && \
-            hostnamectl set-hostname delaney-cf && \
-            reboot
+          PrivateIpAddress: 10.0.1.13 # TODO make sure unique to the instance
