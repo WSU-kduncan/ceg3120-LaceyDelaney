@@ -5,24 +5,33 @@ Setup the following and add documentation or screenshots to your `README.md` fil
 
 1. Create an `/etc/hosts` OR `.ssh/config` file on each system that correlates hostnames to private IPs.
    - Description of how file is configured
+  ![image](https://user-images.githubusercontent.com/77417309/158945321-4fdd60fd-6f3f-4dc3-a6c6-4796d67fb8bf.png)
+Commands used: sudo nano /etc/hosts 
+(CTRL,X,Y) save & quit in nano 
+
 2. Document how to SSH in between the systems utilizing their private IPs.
-3. **_HAProxy configuration & documentation requirements_**
+- To SSH in between the systems utilizing their private IPs you need to first copy your key over to the proxy server and change permissions. Then use the following commands below to ssh into the systems. 
+
+commands used: ssh -i ceg3120-aws-vm.pem ubuntu@privateIP 
+
+
+4. **_HAProxy configuration & documentation requirements_**
    - How to set up a HAProxy load balancer
      - What file(s) where modified & their location
      - What configuration(s) were set (if any)
      - How to restart the service after a configuration change
      - Resources used (websites)
-4. **_Webserver 1 & 2 configuration & documentation requirements_**
+5. **_Webserver 1 & 2 configuration & documentation requirements_**
    - How set up a webserver
      - What file(s) were modified & their location
      - What configuration(s) were set (if any)
      - Where site content files were located (and why)
      - How to restart the service after a configuration change
      - Resources used (websites)
-5. From the browser, when connecting to the proxy server, take two screenshots.
+6. From the browser, when connecting to the proxy server, take two screenshots.
    - one screenshot that shows content from "server 1"
    - one screenshot that shows content from "server 2"
-6. (Optional) - link to your proxy so I can click it.
+7. (Optional) - link to your proxy so I can click it.
 
 ## Resources and Warnings
 
